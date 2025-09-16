@@ -50,3 +50,11 @@ For the variable temperature scenario, the analysis shows:
 2.  **Clone the Repository:** Download or clone this repository to your local machine.
 3.  **Run the Script:** Open the `Part1.m` file in MATLAB and click the **Run** button.
 4.  **View Results:** The script will automatically generate five plot windows showing the simulation results and print a detailed performance summary in the MATLAB Command Window.
+   
+---
+
+## 📚 Reference
+
+The model implemented in this simulation is based on the work presented in:
+
+> Ben Ali, R., Aridhi, E., & Mami, A. (2015, December 21-23). *Dynamic model of an agricultural greenhouse using Matlab-Simulink environment* [Conference presentation]. 16th international conference on Sciences and Techniques of Automatic control & computer engineering - STA'2015, Monastir, Tunisia.
