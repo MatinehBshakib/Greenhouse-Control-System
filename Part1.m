@@ -1,4 +1,4 @@
-%% Complete Greenhouse Control System Implementation - IMPROVED VERSION
+%% Complete Greenhouse Control System Implementation 
 % Based on equation (1) from the research paper
 % Implements continuous time, discrete time, relay control, and PID control
 % IMPROVEMENTS: Proper discrete plant usage, consistent modeling approach
@@ -466,4 +466,5 @@ fprintf('- More mechanical wear on equipment\n\n');
 fprintf('Model Consistency:\n');
 fprintf('- Discrete model now properly represents the continuous system\n');
 fprintf('- All control methods use the same underlying plant model\n');
+
 fprintf('- Results are more reliable and theoretically sound\n');
