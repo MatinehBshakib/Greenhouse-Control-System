@@ -70,10 +70,6 @@ for i = 2:N
     T_continuous(i) = T_i + dT_dt * dt;
 end
 
-T_a_ts = timeseries(T_a.', time_vec);   % overwrite with timeseries
-Q_solar_ts   = timeseries(Q_solar.',    time_vec);   %  "
-wind_speed_ts = timeseries(wind_speed.', time_vec);   %  "
-
 %% 2. IMPROVED DISCRETE TIME IMPLEMENTATION USING C2D
 % Create state-space representation of the continuous system
 % Simplified linear approximation around operating point
