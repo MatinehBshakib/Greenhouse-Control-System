@@ -87,7 +87,7 @@ T_ext_op = 22;  % External temperature operating point
 A_cont = -1/(rho_a * C_a * V_a) * (U * S + rho_a * C_a / 3600);
 
 % Extended B_cont with heat pump input (third column)
-B_cont = [1/(rho_a * C_a * V_a) * U * S, ...              % External temperature
+B_cont = [1/(rho_a * C_a * V_a) * (U * S + rho_a * C_a / 3600), ...              % External temperature
           1/(rho_a * C_a * V_a) * alpha_c * tau_c * S, ... % Solar radiation  
           1/(rho_a * C_a * V_a)];                          % Heat pump input
 
